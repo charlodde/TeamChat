@@ -1,6 +1,6 @@
 # Teamchat
  
-Hier ist der Sourcecode zu meinem auf https://spigotmc.org veröffentlichtem Teamchat Plugin.
+Hier ist der Sourcecode zu meinem auf [https://spigotmc.org](https://www.spigotmc.org/resources/spigot-teamchat.105018/) veröffentlichtem Teamchat Plugin.
 Solltest du irgendwelche Fragen zu dem Plugin oder Sourcecode haben schreib mir gerne auf Discord (Charlotte<3#5193)
 
 # Commands
