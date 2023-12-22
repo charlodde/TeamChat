@@ -17,6 +17,7 @@ joined-teamchat-message: "%prefix% &aYou joined the teamchat!"
 left-teamchat-message: "%prefix% &aYou left the teamchat!"
 no-players-logged-in-message: "%prefix% &cThere are no players logged in!"
 no-message-error: "%prefix% &cYou need to specify a message!"
+invalid-command-error: "%prefix% &cInvalid command!"
 
 permissions:
   essential-permission: "teamchat.use"

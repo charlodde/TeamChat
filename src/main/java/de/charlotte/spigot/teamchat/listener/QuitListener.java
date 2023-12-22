@@ -11,15 +11,15 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class QuitListener implements Listener {
 
     @EventHandler
-    public void handlePlayerQuit(final PlayerQuitEvent event) {
-        final Player player = event.getPlayer();
+    public void handlePlayerQuit(PlayerQuitEvent event) {
+        Player player = event.getPlayer();
+
         if (TeamChat.getInstance().teamChatPlayers.contains(player)) {
             TeamChat.getInstance().teamChatPlayers.remove(player);
-            for (Player onlinePlayer : Bukkit.getOnlinePlayers()) {
-                if (onlinePlayer.hasPermission(ConfigHandler.getPermission("read"))) {
-                    onlinePlayer.sendMessage(ConfigHandler.getString("quit-message").replace("%player%", player.getName()));
-                }
-            }
+
+            Bukkit.getOnlinePlayers().stream()
+                    .filter(onlinePlayer -> onlinePlayer.hasPermission(ConfigHandler.getPermission("read")))
+                    .forEach(onlinePlayer -> onlinePlayer.sendMessage(ConfigHandler.getString("quit-message").replace("%player%", player.getName())));
         }
     }
 }

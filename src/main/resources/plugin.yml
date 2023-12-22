@@ -1,7 +1,7 @@
 name: TeamChat
 version: 1.0
 main: de.charlotte.spigot.teamchat.TeamChat
-api-version: 1.16
+api-version: 1.19
 prefix: TeamChat
 authors: [ Charlotte ]
 description: a simple teamchat for the version 1.19.2
