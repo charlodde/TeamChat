@@ -1,7 +1,7 @@
 package de.charlotte.spigot.teamchat.registry;
 
 import de.charlotte.spigot.teamchat.TeamChat;
-import de.charlotte.spigot.teamchat.commands.TeamChatCommand;
+import de.charlotte.spigot.teamchat.command.TeamChatCommand;
 import lombok.Getter;
 
 import java.util.Objects;

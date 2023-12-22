@@ -1,4 +1,4 @@
-package de.charlotte.spigot.teamchat.processors;
+package de.charlotte.spigot.teamchat.processor;
 
 import org.bukkit.entity.Player;
 

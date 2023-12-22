@@ -1,8 +1,8 @@
-package de.charlotte.spigot.teamchat.commands;
+package de.charlotte.spigot.teamchat.command;
 
 import de.charlotte.spigot.teamchat.TeamChat;
 import de.charlotte.spigot.teamchat.handler.ConfigHandler;
-import de.charlotte.spigot.teamchat.processors.SubCommand;
+import de.charlotte.spigot.teamchat.processor.SubCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
